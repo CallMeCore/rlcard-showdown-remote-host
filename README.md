@@ -51,11 +51,10 @@ cd ..
 1. Launch the backend of leaderboard with
 ```
 cd server
-python3 manage.py runserver
+python3 manage.py runserver 0.0.0.0:8000
 ```
-2. Download the pre-trained models in [Google Drive](https://drive.google.com/file/d/1zx-20xNBDbCFd8GWhZFUkl07lofbNHpy/view?usp=sharing) or [百度网盘](https://pan.baidu.com/s/12MgxVBBz4mgitT74quSWfw) 提取码: qh6s. Extract it in `pve_server/pretrained`.
 
-In a new terminal, start the PvE server (i.e., human vs AI) of DouZero with
+2. In a new terminal, start the PvE server (i.e., human vs AI) of DouZero with
 ```
 cd pve_server
 python3 run_douzero.py
