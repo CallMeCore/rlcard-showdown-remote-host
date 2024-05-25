@@ -244,9 +244,13 @@ def _get_legal_card_play_actions(player_hand_cards, rival_move):
 
     return moves
 
+
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser(description='DouZero backend')
     parser.add_argument('--debug', action='store_true')
     args = parser.parse_args()
-    app.run(debug=args.debug)
+    #app.run(debug=args.debug)
+    from gevent import pywsgi
+    server = pywsgi.WSGIServer(('0.0.0.0', 5000), app)
+    server.serve_forever()
