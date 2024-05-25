@@ -2,8 +2,8 @@ rlcard[torch]
 Django
 tqdm
 django-cors-headers
-flask==1.1
+flask
 flask-cors
 onnx
 onnxruntime
-
+gevent
