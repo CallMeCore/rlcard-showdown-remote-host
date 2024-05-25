@@ -25,7 +25,7 @@ RLCard-Showdown has separated frontend and backend. The frontend is built with R
 ### Prerequisite
 To set up the frontend, you should make sure you have [Node.js](https://nodejs.org/) and NPM installed. Normally you just need to manually install Node.js, and the NPM package would be automatically installed together with Node.js for you. Please refer to its official website for installation of Node.js.
 
-You can run the following commands to verify the installation
+You can run the following commands to verify the installation, node v10(v10.24.1) is tested and recommended
 ```
 node -v
 npm -v
