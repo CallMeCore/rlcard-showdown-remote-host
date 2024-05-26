@@ -121,7 +121,7 @@ def predict():
                     parameters.append(key+'='+request.form.get(key))
                     print(key+':', request.form.get(key))
                 command += '&'.join(parameters)
-                command += '" "http://127.0.0.1:5000/predict"'
+                command += '" "http://47.106.145.103:5000/predict"'
                 print('Command:', command)
                 print('Rival Move:', rival_move)
                 print('legal_actions:', info_set.legal_actions)

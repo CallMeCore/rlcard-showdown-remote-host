@@ -70,7 +70,7 @@ They are conceptually the same with minor differences in state representation an
 ```
 npm start
 ```
-You can view leaderboard at [http://127.0.0.1:3000/](http://127.0.0.1:3000/) and PvE demo of Dou Dizhu at [http://127.0.0.1:3000/pve/doudizhu-demo](http://127.0.0.1:3000/pve/doudizhu-demo). The backend of leaderboard will run in [http://127.0.0.1:8000/](http://127.0.0.1:8000/). The PvE backend will run in [http://127.0.0.1:5000/](http://127.0.0.1:5000/).
+You can view leaderboard at [http://47.106.145.103:3000/](http://47.106.145.103:3000/) and PvE demo of Dou Dizhu at [http://47.106.145.103:3000/pve/doudizhu-demo](http://47.106.145.103:3000/pve/doudizhu-demo). The backend of leaderboard will run in [http://47.106.145.103:8000/](http://47.106.145.103:8000/). The PvE backend will run in [http://47.106.145.103:5000/](http://47.106.145.103:5000/).
 
 ## Demos
 ![leaderboards](https://github.com/datamllab/rlcard-showdown/blob/master/docs/imgs/leaderboards.png?raw=true)
